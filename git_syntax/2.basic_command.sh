@@ -42,3 +42,9 @@ git fetch origin main
 git dif commitID1 commitID2
 git diff 브랜치1 브랜치2
 
+# 가장 최신의 커밋을 취소
+git reset HEAD~1
+git reset HEAD^
+
+# 이미 push된 commit사항을 되돌리는 새로운 commit 생성
+git revert 커밋ID

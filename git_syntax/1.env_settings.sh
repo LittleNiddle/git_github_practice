@@ -22,6 +22,7 @@ git config --list
 
 # git 프로젝트 생성방법 2가지
 # 1. 원격에서 repo 생성 후 clone
+git clone 복사할 레포주소
 # 2. 로컬에 이미 만들어진 프로젝트 github에 업로드
 #   2-1) .git 폴더를 생성 - .git폴더가 있는 위치의 폴더와 파일들이 github에 올라가고, 이 폴더에서만 명령어를 사용할 수 있다.
 git init
